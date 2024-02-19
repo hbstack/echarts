@@ -1,0 +1,7 @@
+.echarts {
+  margin: 2rem 0;
+
+  &:not(.initialized) {
+    @extend .text-bg-light;
+  }
+}
